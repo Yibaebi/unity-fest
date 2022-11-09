@@ -1,0 +1,7 @@
+.app_container {
+  width: 100%;
+  max-width: 480px;
+  background-color: var(--unf-white);
+  height: 100%;
+  margin: 0 auto;
+}
