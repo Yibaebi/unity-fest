@@ -49,6 +49,51 @@
   font-style: normal;
 }
 
+/* Bebas Neue Font Imports */
+@font-face {
+  font-display: swap;
+  font-family: 'Bebas Neue';
+  src: url('./assets/fonts/Bebas Neue Pro/Regular/Bebas\ Neue\ Pro\ Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Bebas Neue';
+  src: url('./assets/fonts/Bebas Neue Pro/Regular/Bebas\ Neue\ Pro\ Light.otf');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Bebas Neue';
+  src: url('./assets/fonts/Bebas Neue Pro/Regular/Bebas\ Neue\ Pro\ Middle.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Bebas Neue';
+  src: url('./assets/fonts/Bebas Neue Pro/Regular/Bebas\ Neue\ Pro\ Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Bebas Neue';
+  src: url('./assets/fonts/Bebas Neue Pro/Regular/Bebas Neue Pro Italic.otf');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Bebas Neue';
+  src: url('./assets/fonts/Bebas Neue Pro/Regular/Bebas\ Neue\ Pro\ Thin.otf');
+  font-weight: 100;
+  font-style: normal;
+}
+
 :root {
   --unf-primary: #ff4100;
   --unf-white: #ffffff;
@@ -59,6 +104,7 @@
   --unf-newon-green: #afff00;
   --unf-purple: #8400f2;
   --unf-grey: #a0a0a0;
+  --unf-light-grey: #fafafa;
 }
 
 * {
@@ -66,9 +112,13 @@
   padding: 0;
   font-size: 16px;
   box-sizing: border-box;
-  font-family: 'Bebas Neue';
+  font-family: 'Bebas Neue', cursive;
 }
 
 body {
   background-color: var(--unf-black);
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
