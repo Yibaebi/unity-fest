@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
-import { Fade } from 'react-reveal'
 import Flash from 'react-reveal/Flash'
+import Jump from 'react-reveal/Jump'
 import RubberBand from 'react-reveal/RubberBand'
 
 import Shake from 'react-reveal/Shake'
@@ -96,14 +96,14 @@ function App() {
     <div className={styles.app_container}>
       <section className={styles.app_hero__section}>
         <PrimaryLogo className={styles.logo} />
-        <Fade bottom>
+        <Jump bottom>
           <section className={styles.hero_section__image}>
             <h3 className="uppercase">
               Prothesis Entertainment <span className={styles.purple}>Presents</span>
             </h3>
             <img src={heroImage} alt="Prothesis Entertainment" />
           </section>
-        </Fade>
+        </Jump>
 
         <section className={styles.hero_section__date}>
           <h1 className="uppercase">
@@ -123,9 +123,7 @@ function App() {
           About The <span className={styles.primary}>Event</span>
         </h1>
         <RubberBand delay={500}>
-          <div className={styles.about_section__img}>
-            <img src={aboutEventImg} alt="event art display" />
-          </div>
+          <img src={aboutEventImg} alt="event art display" />
         </RubberBand>
         <p>
           Enugu Unity fest is the first of its kind. It is an annual Festival that seeks to promote Enugu state’s Art,
