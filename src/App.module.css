@@ -55,6 +55,7 @@
   background-repeat: no-repeat, no-repeat;
   background-position: top 33px left 0, bottom 15px left 0px;
   background-size: 480px, 480px;
+  min-height: 360px;
 }
 
 .hero_section__image h3 {
