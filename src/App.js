@@ -1,6 +1,5 @@
 import React, { useMemo } from 'react'
 import Flash from 'react-reveal/Flash'
-import Jump from 'react-reveal/Jump'
 import RubberBand from 'react-reveal/RubberBand'
 
 import Shake from 'react-reveal/Shake'
@@ -96,14 +95,13 @@ function App() {
     <div className={styles.app_container}>
       <section className={styles.app_hero__section}>
         <PrimaryLogo className={styles.logo} />
-        <Jump bottom>
-          <section className={styles.hero_section__image}>
-            <h3 className="uppercase">
-              Prothesis Entertainment <span className={styles.purple}>Presents</span>
-            </h3>
-            <img src={heroImage} alt="Prothesis Entertainment" />
-          </section>
-        </Jump>
+
+        <section className={styles.hero_section__image}>
+          <h3 className="uppercase">
+            Prothesis Entertainment <span className={styles.purple}>Presents</span>
+          </h3>
+          <img src={heroImage} alt="Prothesis Entertainment" fetchpriority="high" />
+        </section>
 
         <section className={styles.hero_section__date}>
           <h1 className="uppercase">

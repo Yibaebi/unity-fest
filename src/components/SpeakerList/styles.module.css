@@ -56,6 +56,11 @@
   align-items: center;
 }
 
+.speaker_image img {
+  width: 100%;
+  height: fit-content;
+}
+
 .speaker_details p {
   height: 44px;
   display: flex;

@@ -1,42 +1,49 @@
 /* Helevetica Neue Font Imports */
 @font-face {
   font-family: 'Helvetica Neue';
+  font-display: swap;
   src: url('./assets/fonts/HeleveticaNeue/HelveticaNeue-Bold.otf');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Helvetica Neue';
+  font-display: swap;
   src: url('./assets/fonts/HeleveticaNeue/HelveticaNeue-Light.otf');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Helvetica Neue';
+  font-display: swap;
   src: url('./assets/fonts/HeleveticaNeue/HelveticaNeue-Medium.otf');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Helvetica Neue';
+  font-display: swap;
   src: url('./assets/fonts/HeleveticaNeue/HelveticaNeue-Regular.otf');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Helvetica Neue';
+  font-display: swap;
   src: url('./assets/fonts/HeleveticaNeue/HelveticaNeue-RegularItalic.otf');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'Helvetica Neue';
+  font-display: swap;
   src: url('./assets/fonts/HeleveticaNeue/HelveticaNeue-Thin.otf');
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: 'Helvetica Neue';
+  font-display: swap;
   src: url('./assets/fonts/HeleveticaNeue/HelveticaNeue-Ultralight.otf');
   font-weight: 200;
   font-style: normal;
@@ -45,6 +52,7 @@
 /* Bebas Neue Font Imports */
 @font-face {
   font-family: 'Bebas Neue';
+  font-display: swap;
   src: url('./assets/fonts/Bebas Neue Pro/Bebas\ Neue\ Pro\ Bold.otf');
   font-weight: bold;
   font-style: normal;
@@ -52,30 +60,35 @@
 
 @font-face {
   font-family: 'Bebas Neue';
+  font-display: swap;
   src: url('./assets/fonts/Bebas Neue Pro/Bebas\ Neue\ Pro\ Light.otf');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Bebas Neue';
+  font-display: swap;
   src: url('./assets/fonts/Bebas Neue Pro/Bebas\ Neue\ Pro\ Middle.otf');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Bebas Neue';
+  font-display: swap;
   src: url('./assets/fonts/Bebas Neue Pro/Bebas\ Neue\ Pro\ Regular.otf');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Bebas Neue';
+  font-display: swap;
   src: url('./assets/fonts/Bebas Neue Pro/Bebas Neue Pro Italic.otf');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'Bebas Neue';
+  font-display: swap;
   src: url('./assets/fonts/Bebas Neue Pro/Bebas\ Neue\ Pro\ Thin.otf');
   font-weight: 100;
   font-style: normal;
@@ -99,7 +112,7 @@
   padding: 0;
   font-size: 16px;
   box-sizing: border-box;
-  font-family: 'Bebas Neue', 'Helvetica Neue';
+  font-family: 'Bebas Neue', 'Times New Roman', Times, serif;
 }
 
 body {

@@ -13,7 +13,6 @@ import pSquare from './PSquare.webp'
 import timiDakolo from './Timi Dakolo.webp'
 import tuFace from './Tuface.webp'
 import tyBello from './Ty Bello.webp'
-
 import watchFavsImg from './watch_favs__image.webp'
 import winPrizesImg from './win_image.webp'
 
